@@ -1,5 +1,11 @@
 
-$("#centered").on("click", function(){
+if ($("#centered").on("click", function(){
     console.log("pizza"); 
-    $(".fadeMe").fadeToggle("slow");
-});
+    $(".button").fadeToggle("slow");
+})) {}
+
+document.getElementById("SeeMyWork").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Hello World!");
+}
